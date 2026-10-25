@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student portfolio website showcasing skills, projects, education and contact information.">
+  <title>Student Portfolio | AI & ML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="logo" href="#home">Portfolio<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#education">Education</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Computer Science • AI & ML</p>
+          <h1>Building practical <span>AI-powered</span> solutions.</h1>
+          <p class="hero-text">
+            Final-year Computer Science student interested in Artificial Intelligence,
+            Machine Learning, Data Science and modern web development.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="quick-stats" aria-label="Portfolio highlights">
+            <div><strong>AI/ML</strong><span>Specialization</span></div>
+            <div><strong>Web</strong><span>Development</span></div>
+            <div><strong>Data</strong><span>Focused</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="profile-orbit">
+            <div class="profile-avatar">AI</div>
+          </div>
+          <p class="hero-card-label">Student Developer</p>
+          <h2>Learn • Build • Improve</h2>
+          <p>Turning ideas into simple, useful and responsive digital experiences.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Curious about technology and focused on building.</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card reveal">
+            <h3>Who I Am</h3>
+            <p>
+              I am a final-year B.Tech Computer Science student specializing in
+              Artificial Intelligence and Machine Learning. I enjoy learning through
+              hands-on projects and exploring practical uses of AI and data.
+            </p>
+            <p>
+              My current interests include Machine Learning, Data Science, Python,
+              automation and responsive web applications.
+            </p>
+          </article>
+
+          <article class="glass-card reveal">
+            <h3>What I Bring</h3>
+            <ul class="check-list">
+              <li>Problem-solving mindset</li>
+              <li>Interest in AI/ML and Data Science</li>
+              <li>Responsive UI development</li>
+              <li>Continuous learning and experimentation</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technical Skills</p>
+          <h2>Tools I use to learn and build.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-icon">PY</span><h3>Python</h3><p>Programming & ML foundations</p></article>
+          <article class="skill-card reveal"><span class="skill-icon">ML</span><h3>Machine Learning</h3><p>Regression, classification & evaluation</p></article>
+          <article class="skill-card reveal"><span class="skill-icon">DS</span><h3>Data Science</h3><p>Data analysis & visualization</p></article>
+          <article class="skill-card reveal"><span class="skill-icon">WEB</span><h3>HTML / CSS / JS</h3><p>Responsive front-end development</p></article>
+          <article class="skill-card reveal"><span class="skill-icon">SQL</span><h3>SQL</h3><p>Data querying & database basics</p></article>
+          <article class="skill-card reveal"><span class="skill-icon">GIT</span><h3>Git & GitHub</h3><p>Version control & project sharing</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected academic and personal work.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured reveal">
+            <div class="project-number">01</div>
+            <div class="project-content">
+              <p class="project-type">AI / NLP</p>
+              <h3>EVALNYX</h3>
+              <p>
+                AI-powered automated descriptive answer evaluation concept using
+                OCR, multilingual processing, NLP and semantic similarity.
+              </p>
+              <div class="tags"><span>Python</span><span>AI/ML</span><span>NLP</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">02</div>
+            <div class="project-content">
+              <p class="project-type">Machine Learning</p>
+              <h3>Sales Prediction</h3>
+              <p>
+                A beginner-friendly ML application that studies advertising data
+                and predicts sales using regression models.
+              </p>
+              <div class="tags"><span>Python</span><span>Scikit-learn</span><span>Streamlit</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">03</div>
+            <div class="project-content">
+              <p class="project-type">Computer Vision</p>
+              <h3>Sign Language Translator</h3>
+              <p>
+                Prototype for recognizing sign-language gestures and converting
+                recognized signs into understandable output.
+              </p>
+              <div class="tags"><span>Python</span><span>MediaPipe</span><span>ML</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Education</p>
+          <h2>Academic journey.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <span class="timeline-date">2023 – 2027</span>
+              <h3>B.Tech — Computer Science & Engineering (AI & ML)</h3>
+              <p>Engineering degree with a specialization in Artificial Intelligence and Machine Learning.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-content">
+              <span class="timeline-date">Higher Secondary</span>
+              <h3>Intermediate / 10+2</h3>
+              <p>Completed higher-secondary education before entering undergraduate engineering.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's connect.</h2>
+          <p>
+            Have a project idea, internship opportunity or collaboration in mind?
+            Send a message using the form.
+          </p>
+          <div class="contact-points">
+            <div><span>✉</span><div><strong>Email</strong><p>your.email@example.com</p></div></div>
+            <div><span>in</span><div><strong>LinkedIn</strong><p>linkedin.com/in/your-profile</p></div></div>
+            <div><span>GH</span><div><strong>GitHub</strong><p>github.com/your-username</p></div></div>
+          </div>
+        </div>
+
+        <form class="contact-form glass-card reveal" id="contactForm" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name">
+          <small class="error" id="nameError"></small>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email">
+          <small class="error" id="emailError"></small>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..."></textarea>
+          <small class="error" id="messageError"></small>
+
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="form-note">Demo mode: this form validates input locally and does not send email.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Student Portfolio. Built with HTML, CSS & JavaScript.</p>
+      <a href="#top" aria-label="Back to top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
