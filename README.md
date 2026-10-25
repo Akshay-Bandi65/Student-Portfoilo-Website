@@ -1,7 +1,4 @@
 # Student Portfolio Website
-
-## Mini Project Submission Package
-
 A responsive student portfolio website developed using **HTML5, CSS3 and JavaScript**.
 
 ### Features
@@ -19,32 +16,7 @@ A responsive student portfolio website developed using **HTML5, CSS3 and JavaScr
 - Success/validation feedback
 - Beginner-friendly source structure
 
-## Project Structure
 
-```text
-Student_Portfolio_Website_Submission/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-├── Documentation/
-│   └── Student_Portfolio_Project_Documentation.docx
-├── assets/
-│   └── System_Architecture_Workflow.png
-└── screenshots/
-    └── README.txt
-```
-
-## How to Run
-
-1. Extract the ZIP file.
-2. Open the project folder in VS Code.
-3. Open `index.html` in a browser.
-
-For the easiest development workflow, install the **Live Server** extension in VS Code and select:
-`index.html` → **Open with Live Server**.
-
-No Python, Node.js or database is required for the current version.
 
 ## Important
 
